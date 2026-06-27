@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" style="width:100%;height:100%;overflow:visible;filter:drop-shadow(0 10px 14px rgba(20,8,40,0.45));">
+    <defs>
+      <radialGradient id="ws-moon" cx="50%" cy="42%" r="60%">
+        <stop offset="0%" stop-color="#ffffff"></stop>
+        <stop offset="55%" stop-color="#dfe9ff"></stop>
+        <stop offset="100%" stop-color="#aebfe8"></stop>
+      </radialGradient>
+      <radialGradient id="ws-bloom" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#cfe0ff" stop-opacity="0.9"></stop>
+        <stop offset="100%" stop-color="#cfe0ff" stop-opacity="0"></stop>
+      </radialGradient>
+      <linearGradient id="ws-fur" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#7d6cc4"></stop>
+        <stop offset="55%" stop-color="#5d4ba2"></stop>
+        <stop offset="100%" stop-color="#473585"></stop>
+      </linearGradient>
+      <linearGradient id="ws-snout" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#9685d6"></stop>
+        <stop offset="100%" stop-color="#6e5cb6"></stop>
+      </linearGradient>
+    </defs>
+
+    <circle cx="110" cy="64" r="62" fill="url(#ws-bloom)"></circle>
+    <circle cx="110" cy="62" r="40" fill="url(#ws-moon)" stroke="#ffffff" stroke-width="7" paint-order="stroke"></circle>
+    <circle cx="96" cy="50" r="7" fill="#c3d2f4" opacity="0.65"></circle>
+    <circle cx="124" cy="70" r="5" fill="#c3d2f4" opacity="0.5"></circle>
+    <circle cx="114" cy="44" r="4" fill="#c3d2f4" opacity="0.5"></circle>
+
+    <!-- wolf head silhouette -->
+    <path d="M 46 80 Q 38 44 62 32 Q 80 46 94 64 Q 102 58 110 58 Q 118 58 126 64 Q 140 46 158 32 Q 182 44 174 80 Q 190 94 182 114 Q 175 126 160 127 Q 154 152 136 168 Q 123 179 110 181 Q 97 179 84 168 Q 66 152 60 127 Q 45 126 38 114 Q 30 94 46 80 Z"
+      fill="url(#ws-fur)" stroke="#ffffff" stroke-width="11" stroke-linejoin="round" paint-order="stroke"></path>
+
+    <!-- inner ears -->
+    <path d="M 56 42 Q 64 36 74 50 Q 66 56 60 62 Z" fill="#f6a8c8"></path>
+    <path d="M 164 42 Q 156 36 146 50 Q 154 56 160 62 Z" fill="#f6a8c8"></path>
+
+    <!-- snout / muzzle -->
+    <path d="M 84 120 Q 110 108 136 120 Q 138 146 110 168 Q 82 146 84 120 Z" fill="url(#ws-snout)"></path>
+
+    <!-- eyes (menacing tilt, friendly catchlight) -->
+    <path d="M 74 92 Q 86 84 96 96 Q 88 104 78 102 Q 72 98 74 92 Z" fill="#ffffff"></path>
+    <path d="M 146 92 Q 134 84 124 96 Q 132 104 142 102 Q 148 98 146 92 Z" fill="#ffffff"></path>
+    <circle cx="86" cy="95" r="5.5" fill="#241445"></circle>
+    <circle cx="134" cy="95" r="5.5" fill="#241445"></circle>
+    <circle cx="88" cy="93" r="1.8" fill="#ffffff"></circle>
+    <circle cx="136" cy="93" r="1.8" fill="#ffffff"></circle>
+
+    <!-- nose -->
+    <path d="M 99 124 Q 110 120 121 124 Q 122 134 110 138 Q 98 134 99 124 Z" fill="#241445"></path>
+
+    <!-- howling mouth -->
+    <path d="M 110 140 Q 122 144 119 156 Q 115 168 110 170 Q 105 168 101 156 Q 98 144 110 140 Z" fill="#3a1d5e"></path>
+    <path d="M 110 156 Q 116 158 114 166 Q 110 170 106 166 Q 104 158 110 156 Z" fill="#f06a93"></path>
+  </svg>
