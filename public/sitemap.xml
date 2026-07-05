@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://partyfever.cc/</loc><priority>1.0</priority></url>
+  <url><loc>https://partyfever.cc/games</loc><priority>0.9</priority></url>
+  <url><loc>https://partyfever.cc/games/quick-doodle</loc><priority>0.8</priority></url>
+  <url><loc>https://partyfever.cc/games/quizzards</loc><priority>0.8</priority></url>
+  <url><loc>https://partyfever.cc/games/scrutineye</loc><priority>0.8</priority></url>
+  <url><loc>https://partyfever.cc/games/spin-and-spell</loc><priority>0.8</priority></url>
+  <url><loc>https://partyfever.cc/games/cups</loc><priority>0.8</priority></url>
+  <url><loc>https://partyfever.cc/games/werewolf</loc><priority>0.8</priority></url>
+  <url><loc>https://partyfever.cc/how-to-play</loc><priority>0.7</priority></url>
+  <url><loc>https://partyfever.cc/about</loc><priority>0.6</priority></url>
+  <url><loc>https://partyfever.cc/contact</loc><priority>0.4</priority></url>
+  <url><loc>https://partyfever.cc/privacy</loc><priority>0.3</priority></url>
+</urlset>
