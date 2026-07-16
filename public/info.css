@@ -141,3 +141,19 @@ main { flex: 1; width: 100%; max-width: 960px; margin: 0 auto; padding: clamp(1.
 .foot-nav a { color: var(--muted); font-weight: 500; }
 .foot-nav a:hover { color: var(--text); text-decoration: none; }
 .copyright { color: var(--muted); font-size: 0.85rem; }
+
+/* ---------- blog ---------- */
+.dek { font-size: 1.25rem; color: var(--text); margin: 0.8rem 0 1.8rem; line-height: 1.5; }
+.article h2 { font-size: clamp(1.3rem, 2.6vw, 1.75rem); margin-top: 2.4rem; margin-bottom: 0.6rem; color: var(--text); }
+.article p { color: var(--muted); font-size: 1.06rem; margin: 0.9rem 0; }
+.article .dek { color: var(--amber); font-family: 'Fredoka', sans-serif; }
+.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.1rem; }
+.post-card {
+  display: flex; flex-direction: column; gap: 0.6rem;
+  background: var(--card); border: 1px solid var(--card-border); border-radius: 20px;
+  padding: 1.5rem; color: var(--text); transition: transform 0.15s, border-color 0.15s;
+}
+.post-card:hover { transform: translateY(-3px); border-color: var(--cyan); text-decoration: none; }
+.post-card h2 { font-size: 1.25rem; margin: 0; line-height: 1.25; }
+.post-card p { color: var(--muted); font-size: 0.95rem; margin: 0; }
+.read-more { color: var(--cyan); font-weight: 600; font-size: 0.9rem; margin-top: auto; }
