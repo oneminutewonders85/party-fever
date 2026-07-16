@@ -84,40 +84,69 @@ ARTICLES = [
 },
 {
  "slug": "best-party-games-family-game-night",
- "title": "15 Ideas for the Perfect Family Game Night (No Setup, No Mess)",
- "description": "A great family game night does not need a cupboard full of boxes. Here are ideas and tips for fun, low-effort game nights everyone will remember.",
- "dek": "The best game nights are the ones that actually happen. These low-effort ideas keep the fun high and the clean-up at zero.",
+ "title": "15 Ideas for the Perfect Family Game Night",
+ "description": "Fifteen practical, tried-and-tested ideas for a family game night that actually happens, keeps every age involved, and leaves nothing to clean up.",
+ "dek": "The best game nights are the ones that actually happen. Here are fifteen ideas to keep the fun high, the effort low, and everyone at the table.",
  "sections": [
-  ("Why game night matters", [
+  ("Why game night is worth protecting", [
     "A regular family game night is one of the simplest, most reliable ways to build closeness. It creates a shared ritual, a reason to gather, and a steady supply of the small joyful moments that hold families together.",
-    "The barrier is almost always effort. Boxes to find, pieces to set up, rules to explain, and a table to clear afterward. Remove that friction and game night goes from occasional to weekly.",
+    "The barrier is almost always effort. Boxes to find, pieces to set up, rules to explain, and a table to clear afterward. Remove that friction and game night goes from occasional to weekly. The fifteen ideas below are all built around that principle.",
   ]),
-  ("Mix the types of fun", [
-    "The strongest game nights vary the kind of fun on offer. Blend a fast reaction game to get everyone energised, a creative drawing or guessing game for laughter, a trivia round for the competitive streak, and a spot-the-object hunt that rewards sharp eyes.",
-    "Variety keeps every age and personality engaged. The quiet observer shines in a hidden-object hunt; the show-off thrives in charades or drawing; the know-it-all lives for trivia. Rotate so everyone gets their moment.",
+  ("1. Open with something fast and silly", [
+    "The first game of the night has one job: break the ice. A quick drawing or reaction game gets everyone laughing within a minute, and a room that has already laughed together will happily sit through anything more thoughtful afterward.",
   ]),
-  ("Match the game to the youngest player", [
-    "The fastest way to lose a child's interest is a game pitched over their head. Choose games with adjustable difficulty, or ones simple enough that a younger player can genuinely compete. When kids can win, they stay in.",
-    "Mixed-age games where a child can occasionally beat an adult are pure magic. The pride on a young face after a clever guess is often the highlight of the whole night.",
+  ("2. Let the youngest player choose first", [
+    "Handing the first pick to the youngest at the table does two things at once. It guarantees they are engaged from the start, and it quietly signals that this is genuinely everyone's night, not the adults' night with children tolerated.",
   ]),
-  ("Keep sessions short and sweet", [
-    "End while everyone still wants more. A game night that runs too long drifts into boredom and squabbles. Short, punchy sessions that finish on a high note are the ones people ask to repeat.",
-    "A handful of quick games beats one marathon. The goal is laughter and connection, not endurance.",
+  ("3. Rotate the type of fun, not just the game", [
+    "Follow a noisy reaction game with a thoughtful trivia round, then a creative drawing game. Varying the kind of challenge keeps different personalities engaged and stops the evening settling into one note.",
   ]),
-  ("Lose the clean-up", [
-    "The hidden killer of game night is the aftermath. Scattered cards, lost pieces, and a table to reset turn a joyful evening into a chore. This is exactly why so many good intentions never become habits.",
-    "Digital party games remove this entirely. When the laughter fades, there is nothing to pack away. That single change is often what turns an occasional idea into a genuine weekly ritual.",
+  ("4. Set an end time before you start", [
+    "Decide up front that you will stop at a certain point, and stop there even if things are going well. Ending while everyone still wants more is what makes people ask for it again next week. Game nights die of exhaustion, not boredom.",
   ]),
-  ("Make it effortless to start", [
-    "The lower the barrier to starting, the more often it happens. Games that begin in seconds, need no downloads, and work with the phones already in everyone's pockets remove every excuse.",
-    "Party Fever brings all of this together: a screen everyone shares, phones as controllers, six varied games, and absolutely nothing to clear away afterward.",
+  ("5. Pair the generations into teams", [
+    "Put a child with a grandparent. The child gets a mentor, the grandparent gets a role beyond spectator, and the pair produces the sort of moment families retell for years. It also quietly solves the confidence gap for shy younger players.",
+  ]),
+  ("6. Make the prize silly, not valuable", [
+    "A ridiculous trophy, a paper crown, or the right to choose tomorrow's dinner beats anything with real value. Silly prizes keep the competition warm; real prizes make it sharp, and sharp is where game nights go wrong.",
+  ]),
+  ("7. Invent one house rule that is yours alone", [
+    "Every family that plays regularly ends up with a rule nobody else has. A bonus for the worst drawing. A round where the youngest gets double points. These small inventions are how a game becomes your family's game.",
+  ]),
+  ("8. Use phones as controllers, not distractions", [
+    "The phone is not the enemy. Pointed at a shared screen it becomes a controller, and the device that usually pulls everyone apart becomes the thing that brings them together. The trick is giving the phone a job in the room, not outside it.",
+  ]),
+  ("9. Choose snacks you can eat one-handed", [
+    "Anything requiring cutlery, a plate, or a napkin will interrupt the game and create mess. Bowls of things you can grab between rounds keep the energy going and the clean-up near zero.",
+  ]),
+  ("10. Appoint a commentator", [
+    "Give whoever is sitting out a round the job of commentating on it. It keeps them involved, it is usually funnier than the game itself, and it removes the dead time that makes people drift back to their own screens.",
+  ]),
+  ("11. Give the loser a revenge round", [
+    "Let whoever finished last choose the next game. It gives them something to look forward to instead of something to sulk about, and it naturally varies the games you play across an evening.",
+  ]),
+  ("12. Theme the night occasionally", [
+    "Once in a while, give the evening a shape: a holiday theme, a decade, a colour everyone wears. It costs nothing and turns an ordinary evening into one people remember specifically rather than generally.",
+  ]),
+  ("13. Photograph the final scoreboard", [
+    "A quick photo of the scores each week builds a running history. Months later it becomes a small archive of your family's evenings, and the rivalries it documents are worth more than the numbers.",
+  ]),
+  ("14. Widen the circle sometimes", [
+    "Invite the neighbours, cousins, or a friend who is on their own that evening. Games that support unlimited players make this effortless, and a bigger, noisier group changes the whole character of the night for the better.",
+  ]),
+  ("15. Finish on the favourite", [
+    "End every night with the game your family loves most. Last impressions linger, and closing on the crowd-pleaser is what turns tonight's session into next week's request.",
+  ]),
+  ("Making it effortless enough to repeat", [
+    "Look back at that list and notice how many ideas depend on one thing: low friction. No setup, no rules lecture, no clean-up. The hidden killer of game night is the aftermath, and it is why so many good intentions never become habits.",
+    "Party Fever was built around exactly this. Six varied games on your television, phones as controllers, unlimited players, nothing to download, and absolutely nothing to pack away when the laughter fades.",
   ]),
  ],
 },
 {
  "slug": "party-games-large-groups-office-gatherings",
- "title": "The Best Party Games for Large Groups and Office Gatherings",
- "description": "Big groups need games that scale. Here is how to keep everyone involved, from a crowded living room to a company team-building night.",
+ "title": "Party Games for Large Groups: What Works and What Falls Flat",
+ "description": "Big groups need games that scale. Here is what separates a game that keeps thirty people engaged from one that leaves half the room watching.",
  "dek": "Large groups are where most games fall apart. The trick is choosing ones that keep everyone in the action, not waiting on the sidelines.",
  "sections": [
   ("The large-group problem", [
@@ -188,8 +217,8 @@ ARTICLES = [
 },
 {
  "slug": "games-for-multigenerational-family-gatherings",
- "title": "Games for Multi-Generational Family Gatherings",
- "description": "From grandparents to grandchildren, the right games let every generation play together as equals. Here is how to pick them.",
+ "title": "How to Choose Games for Multi-Generational Family Gatherings",
+ "description": "From grandparents to grandchildren, the right game lets every generation play together as equals. Here is how to pick one that works for all of them.",
  "dek": "The magic of a family gathering is having every generation in one room. The challenge is finding something they can all enjoy at once.",
  "sections": [
   ("The multi-generational challenge", [
