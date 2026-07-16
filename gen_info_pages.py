@@ -48,6 +48,7 @@ def page(path, title, description, body, jsonld=None, canonical=None):
     <nav class="site-nav">
       <a href="{root}games/">Games</a>
       <a href="{root}how-to-play">How to Play</a>
+      <a href="{root}blog/">Blog</a>
       <a href="{root}about">About</a>
       <a href="{root or '/'}">Play Now</a>
     </nav>
@@ -63,6 +64,7 @@ def page(path, title, description, body, jsonld=None, canonical=None):
     <nav class="foot-nav">
       <a href="{root}games/">Games</a>
       <a href="{root}how-to-play">How to Play</a>
+      <a href="{root}blog/">Blog</a>
       <a href="{root}about">About</a>
       <a href="{root}contact">Contact</a>
       <a href="{root}privacy">Privacy</a>
@@ -97,6 +99,8 @@ GAMES = [
          "races to type their guesses. The first correct guess scores points for both the guesser and the artist, then a new "
          "drawer takes the pen. Play rotates so everyone gets a turn to draw."),
     skill="No artistic skill required, and honestly, less skill is funnier.",
+    strategy=['Start with the big shape before the details. A recognisable silhouette gets guesses flowing faster than a beautifully rendered corner of something nobody can place.', 'Draw the noun, not the scene. If the word is lighthouse, resist painting the sea and the sky; the tower and the beam are what people are searching for.', 'Watch the guesses as they come in. If everyone is circling around the wrong idea, erase and attack it from a completely different angle rather than adding more detail to a drawing that is not landing.'],
+    occasions=['Quick Doodle is the ideal opener for a game night. It is loud, it is silly, and it breaks the ice within about thirty seconds, which makes it perfect when the room has not warmed up yet.', 'It also works beautifully with mixed ages. Children often out-guess adults, and a wobbly drawing from a grandparent is usually the highlight of the evening. Nobody needs to be good at art for it to work; in fact, the worse the drawing, the better the round.'],
     faqs=[("How many players do you need for Quick Doodle?", "Quick Doodle works best with three or more players and suits any group size for a family game night."),
           ("Do you need to be good at drawing?", "Not at all. The game is designed so that rough, funny sketches create the most laughter. Guessing the wobbly drawings is half the fun."),
           ("What ages can play Quick Doodle?", "It is suitable for ages six and up, making it a genuine all-ages family game.")]),
@@ -115,6 +119,8 @@ GAMES = [
          "runs out. Points reward both accuracy and speed, so hesitation costs you. After each question, the correct answer and "
          "a bite-sized fact are revealed. The player with the most points after all questions wins the crown."),
     skill="Choose your difficulty level to match the room, from curious kids to the family know-it-all.",
+    strategy=['Pick the difficulty that matches your room, not your ego. Easy keeps children in the game; Pro rewards the family know-it-all. A mismatched difficulty is the fastest way to lose half the players.', 'Read all four options before committing. Quizzards rewards a correct answer, so a moment of thought costs you nothing and saves you from the obvious trap.', 'Pay attention to the fun fact after each question. Beyond being genuinely interesting, they occasionally set up knowledge that helps on a later question.'],
+    occasions=['Quizzards is the natural centrepiece of a game night, and it scales from two players to a whole room without slowing down. It is also a strong choice for an office gathering, where a shared trivia round gives colleagues an easy, low-pressure reason to talk.', 'Because every question ends with a fact, it doubles as gentle learning for younger players without ever feeling like a lesson.'],
     faqs=[("How many players can play Quizzards?", "Quizzards supports two or more players, and you can pick a difficulty level to suit the group."),
           ("Are the trivia questions repeated?", "Quizzards remembers which questions your household has already seen and avoids repeats until the pool is exhausted, keeping each game fresh."),
           ("What topics does Quizzards cover?", "Questions span science, geography, history, sport, food, and pop culture, with a global mix of subjects.")]),
@@ -133,6 +139,8 @@ GAMES = [
          "objects they spot on their phones, but only words beginning with the allowed letters score. Rarer, harder-to-spot "
          "objects are worth more points. When time is up, whoever spotted the most wins."),
     skill="A great equaliser between kids and adults, where a sharp eye beats age every time.",
+    strategy=['Work the letters, not the picture. Before you start hunting, glance at the allowed starting letters and let them guide your eye. Scanning for anything at all wastes precious seconds.', 'Sweep the scene in a pattern rather than darting around. Left to right, top to bottom, one band at a time; a systematic sweep beats frantic scanning almost every round.', 'Do not stop at the obvious. The rarer, half-hidden objects are worth more points, so once you have banked the easy finds, slow down and look into corners, behind other objects, and along the edges.'],
+    occasions=['Scrutineye is the great equaliser of a family game night. Sharp young eyes routinely beat adults, and it needs no general knowledge, so nobody is excluded by age or background.', 'It is also the calmest of the six games, which makes it a good choice when you want everyone engaged but the room does not need more noise, or as a breather between two high-energy rounds.'],
     faqs=[("What is Scrutineye?", "Scrutineye is a hidden-object party game where players race to find and name objects in a detailed scene shown on the TV, scoring more for rarer finds."),
           ("How does the letter rule work?", "Each round provides a set of starting letters, and only objects whose names begin with those letters count toward your score."),
           ("How many scenes are there?", "There are fourteen detailed scenes, each packed with objects to discover.")]),
@@ -153,6 +161,8 @@ GAMES = [
          "or gamble on solving the whole phrase for a big bonus. Beware Bankrupt and Lose a Turn. Points bank when the puzzle is "
          "solved, and the highest score after all rounds wins."),
     skill="Turn-based drama at its finest, rewarding both a sharp vocabulary and steady nerves.",
+    strategy=['Call the common letters first. Vowels and the workhorse consonants like R, S, T, L and N appear in almost every phrase, and each occurrence pays the wheel value, so a single good letter can bank a small fortune.', 'Use the category. It is not decoration; knowing the phrase is a place or a food narrows the possibilities enormously and often lets you solve early.', 'Know when to gamble. Solving pays a large bonus, but a wrong guess ends your turn. Solve when you are confident and your rivals are close; keep spinning when you are comfortably ahead.'],
+    occasions=['Spin and Spell is the drama of the evening. Because it is turn-based, it creates natural moments of suspense where the whole room watches one player spin, and the groans when someone hits Bankrupt are half the entertainment.', 'It suits slightly older groups best, since it rewards vocabulary, but younger players enjoy calling letters and watching the board fill in even when the solving is left to others.'],
     faqs=[("How do you play Spin and Spell?", "Players take turns spinning a wheel for points, guessing letters in a hidden phrase, and choosing when to solve the whole puzzle for a bonus."),
           ("What happens if you land on Bankrupt?", "Landing on Bankrupt wipes the points you have banked in the current round and passes the turn to the next player."),
           ("How many phrases are in the game?", "There are more than two hundred phrases across eight categories, with a globally varied mix of topics.")]),
@@ -171,6 +181,8 @@ GAMES = [
          "their phone, then hits the buzzer. The first player to buzz with a correct match wins the round and scores, while a "
          "wrong buzz costs points, so speed and accuracy both matter. The highest score after all rounds takes it."),
     skill="Fast, frantic, and fiercely competitive, with rounds short enough to keep everyone hooked.",
+    strategy=['Read the whole sequence before you touch anything. The instinct is to start building immediately, but a single glance at the full order is faster than correcting a mistake halfway through.', 'Accuracy beats speed, because a wrong buzz costs you points. The winner is usually the second-fastest builder who got it right, not the fastest one who did not.', 'Chunk the colours. Remembering red-blue-green as one group and orange-yellow as another is far easier than holding five separate items in mind under pressure.'],
+    occasions=['Cups is the shot of adrenaline in a game night. Rounds last seconds, which makes it perfect for waking up a room that has gone quiet, or for squeezing in a quick burst of competition when time is short.', 'It suits every age, because it tests reaction and observation rather than knowledge, and its short rounds mean nobody is ever out of the action for long.'],
     faqs=[("What is the game Cups about?", "Cups is a fast memory and reaction game where players recreate a colour sequence shown on the TV and race to buzz in first with a correct match."),
           ("How long does a game of Cups take?", "A full game takes only a few minutes, making it ideal for quick, high-energy rounds."),
           ("Is Cups suitable for children?", "Yes, it suits ages six and up and rewards quick eyes over specialist knowledge.")]),
@@ -191,6 +203,8 @@ GAMES = [
          "and the surviving players debate and vote to banish the person they suspect. Villagers win by unmasking the Werewolf; "
          "the Werewolf wins by outlasting the village."),
     skill="The ultimate test of who can keep a straight face while the accusations fly.",
+    strategy=['As a Villager, listen more than you talk in the first round. The Werewolf usually reveals themselves through inconsistency, not through a single dramatic slip, and you cannot spot a pattern if you are busy making noise.', 'As the Werewolf, do not hide. The quietest player at the table is always suspicious. Contribute, accuse thoughtfully, and behave exactly as an innocent Villager trying to solve the mystery would.', 'As the Doctor, vary who you protect. Predictable protection is easy for a Werewolf to work around, and drawing attention to yourself too early makes you the next target.'],
+    occasions=['Werewolf needs at least five players, which makes it the game for a proper gathering rather than a quiet evening. It is at its best with a larger, talkative group who will argue and bluff with enthusiasm.', 'It is a superb office or friends game, because it is entirely social. The game itself is just a frame; the fun is in watching who can lie with a straight face and who crumbles under a single question.'],
     faqs=[("How many players do you need for Werewolf?", "Werewolf needs at least five players and gets better with larger groups."),
           ("Who are the roles in Werewolf?", "There is one Werewolf, one Doctor who can protect a player each night, and the remaining players are Villagers."),
           ("Does someone have to be the narrator?", "No. Party Fever deals the roles and runs the night and day phases automatically, so everyone can play.")]),
@@ -219,6 +233,8 @@ def game_jsonld(g):
     }
 
 def game_body(g, root="../"):
+    strategy_html = "\n".join(f'      <p>{html.escape(p)}</p>' for p in g.get('strategy', []))
+    occasions_html = "\n".join(f'      <p>{html.escape(p)}</p>' for p in g.get('occasions', []))
     faqs = "\n".join(
         f'      <div class="faq"><h3>{html.escape(q)}</h3><p>{html.escape(a)}</p></div>'
         for q, a in g["faqs"])
@@ -241,6 +257,10 @@ def game_body(g, root="../"):
       <h2>How it works</h2>
       <p>{html.escape(g['how'])}</p>
       <p class="skill">{html.escape(g['skill'])}</p>
+      <h2>Tips and tactics</h2>
+{strategy_html}
+      <h2>When to play it</h2>
+{occasions_html}
       <h2>Common questions</h2>
       <div class="faqs">
 {faqs}
