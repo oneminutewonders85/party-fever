@@ -123,7 +123,7 @@ export default function HostShell() {
   if (room && room.status !== 'lobby') {
     const mod = getModule(room.current_game)
     return (
-      <Stage className="flex min-h-screen flex-col px-10 py-8">
+      <Stage className="pf-tv-safe flex min-h-screen flex-col">
         <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center">
           {mod ? <mod.HostView room={room} players={players} /> : <p>Unknown game.</p>}
         </div>
@@ -134,7 +134,7 @@ export default function HostShell() {
   // lobby
   const SettingsPanel = room ? getModule(room.current_game)?.SettingsPanel : undefined
   return (
-    <Stage className="flex min-h-screen flex-col px-10 py-8">
+    <Stage className="pf-tv-safe flex min-h-screen flex-col">
       <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col justify-center">
         <header className="flex items-center justify-between">
           <div className="flex items-center gap-3">

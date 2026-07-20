@@ -29,6 +29,23 @@ body {
     radial-gradient(40% 38% at 92% 8%, rgba(132,204,22,.16), transparent 60%),
     linear-gradient(165deg, #7a2fd0 0%, #4f2ed9 46%, #1a0b2e 100%);
 }
+
+/* TV overscan safe area. Many TVs (older sets especially) crop the outer 3-5%
+   of the picture, a holdover from analog broadcast. Content flush to the edge,
+   like a scores panel or a status line, gets cut off. This keeps everything on
+   the TV host screens inside a safe band.
+
+   env(safe-area-inset-*) covers notches/rounded corners where the browser
+   reports them; the max() floor of 3vmin guarantees a real margin on the TVs
+   that report nothing, which is most of them. Applied at the host Stage so all
+   six games inherit it without per-game edits. Phones are unaffected: they have
+   no overscan, and their own screens do not use this class. */
+.pf-tv-safe {
+  padding-top: max(env(safe-area-inset-top), 3.5vh);
+  padding-right: max(env(safe-area-inset-right), 5vw);
+  padding-bottom: max(env(safe-area-inset-bottom), 3.5vh);
+  padding-left: max(env(safe-area-inset-left), 5vw);
+}
 }
 
 .pf-glass {
